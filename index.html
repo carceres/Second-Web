@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carceres's Second Website</title>
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="navbar">
+    <div class="container-nav">
+      <a href="#" class="logo">Carceres<span>Lim</span></a>
+      <img id="mobile-cta" class="mobile-menu" src="images/menu.svg" alt="menu">
+      <nav>
+        <img id="mobile-exit" class="mobile-menu-exit" src="images/exit.svg" alt="Exit Menu">
+        <ul class="primary-nav">
+          <li class="current"><a href="#">Home</a></li>
+          <li><a href="https://www.facebook.com/manuel.carceres.98">Facebook</a></li>
+          <li><a href="https://vm.tiktok.com/ZSL3cbC16/">TikTok</a></li>
+          <li><a href="https://instagram.com/_carceres.13?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a></li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <section class="first-section">
+    <div class="container">
+      <div class="left-part">
+        <p class="programmer-text">Programmer</p>
+        <h2>Manuel Dos Santos Lima Carceres</h2>
+        <div>
+          <p class="html-css">Click Iha Ne'e Hodi Aprende HTML & CSS</p>
+          <a class="youtube-link" href="https://www.youtube.com/">YouTube</a>
+        </div>
+      </div>
+        <img src="Profile-Picture/IMG_20230630_223959_915.jpg" alt="My-Picture">
+    </div>
+  </section>
+  <section class="second-section">
+    <div class="container">
+      <h4 class="subhead">Hau Rekomenda Naran Channel Youtube Ne'ebe Kolega Sira Bele Aprende HTML & CSS</h4>
+      <ul class="channel-youtube-name">
+        <li>SuperSimpleDav</li>
+        <li>Web Programming Unpaz</li>
+        <li>GreatStact</li>
+        <li>FreeCodeCamp.org</li>
+      </ul>
+      <img class="dots-img" src="images/dots.svg" alt="dots">
+    </div>
+  </section>
+  <section class="third-section">
+    <div class="container">
+      <div>
+        <img src="Profile-Picture/810bd82ca5ba9225d647b1e717a78bdc.jpg" alt="Hacker Picture">
+      </div>
+    </div>
+  </section>
+
+  <section class="fourth-section">
+    <div class="container">
+      <ul>
+        <li>
+          <img src="Profile-Picture/IMG-20220411-WA0000.jpg" alt="Carceres Images">
+          <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis animi error itaque ex recusandae quos dolore officiis modi similique dolores porro, rerum placeat corporis nisi suscipit quis enim eius fugiat.</blockquote>
+        </li>
+        <li>
+          <img src="Profile-Picture/IMG-20220411-WA0000.jpg" alt="Carceres Images">
+          <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis animi error itaque ex recusandae quos dolore officiis modi similique dolores porro, rerum placeat corporis nisi suscipit quis enim eius fugiat.</blockquote>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section class="fifth-section">
+    <div class="container">
+      <h3>Contact</h3>
+      <form>
+        <label for="naran">Naran</label>
+        <input type="text" id="naran" name="naran">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email">
+        <label for="message">Message</label>
+        <textarea name="message" id="Message" cols="30" rows="10"></textarea>
+
+        <input type="submit" class="message-style" value="Send Message">
+      </form>
+    </div>
+  </section>
+  <script>
+    const mobileBtn = document.getElementById('mobile-cta');
+          nav = document.querySelector('nav');
+          mobileBtnExit = document.getElementById('mobile-exit');
+
+          mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+          })
+
+          mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+          })
+
+  </script>
+</body>
+</html>
